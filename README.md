@@ -11,32 +11,32 @@ Save and organize your favorites packages
 
 ```
 |-- src
-|---- components
-|------ atoms
-|-------- Button
-|---------- Button.tsx
-|---------- Button.stories.tsx
-|---------- index.ts
-|---------- styles.css
-|------ molecules
-|-------- ...
-|------ organisms
-|-------- ...
-|------ pages
-|-------- ...
-|------ templates
-|-------- ...
-|---- utils
-|------ index.ts
-|---- store
-|------ actions
-|------ reducers
-|---- assets
-|------ images
-|------ svgs
-|--- App.tsx
-|--- index.tsx
-|--- index.css
+|   |-- components
+|   |   |-- atoms
+|   |   |   `-- Button
+|   |   |       |-- Button.tsx
+|   |   |       |-- Button.stories.tsx
+|   |   |       |-- index.ts
+|   |   |       `-- styles.css
+|   |   |-- molecules
+|   |   |   `-- ...
+|   |   |-- organisms
+|   |   |   `-- ...
+|   |   |-- pages
+|   |   |   `-- ...
+|   |   `-- templates
+|   |       `-- ...
+|   |-- utils
+|   |   `-- index.ts
+|   |-- store
+|   |   |-- actions
+|   |   `-- reducers
+|   `-- assets
+|       |-- images
+|       `-- svgs
+|-- App.tsx
+|-- index.tsx
+|-- index.css
 ```
 
 ## Dev :tada:
