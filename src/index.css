@@ -1,0 +1,52 @@
+:root {
+  /*== colors */
+
+  --black: black;
+  --white: white;
+  --blue-300: #AFBBE3;
+  --blue-400: #7385C3;
+  --blue-500: #485A98;
+  --blue-800: #2B365F;
+  --blue-900: #182246;
+  --green-500: #73C385;
+  --yellow-500: #FFF398;
+  --gradient-dark-blue: linear-gradient(20deg, #182246, #0D142C);
+  --gradient-light-blue: linear-gradient(20deg, #EDEFF2, #D5DDEA);
+  --primay-color: var(--blue-500);
+  --secondary-color: var(--green-500);
+
+  /*== fonts */
+
+  --main-font: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',   sans-serif;
+
+  /*== grid */
+  /*== easing */
+  /*== transitions */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--main-font);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--primay-color);
+}
+
+input,
+select,
+button,
+textarea {
+  font-family: inherit;
+}
