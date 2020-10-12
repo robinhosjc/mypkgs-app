@@ -13,19 +13,24 @@ Save and organize your favorites packages
 |-- src
 |   |-- components
 |   |   |-- atoms
-|   |   |   `-- Button
-|   |   |       |-- Button.tsx
-|   |   |       |-- Button.stories.tsx
-|   |   |       |-- index.ts
-|   |   |       `-- styles.css
+|   |   |   |-- Button
+|   |   |   |   |-- Button.tsx
+|   |   |   |   |-- Button.stories.tsx
+|   |   |   |   |-- index.ts
+|   |   |   |   `-- styles.css
+|   |   |   `-- index.ts
 |   |   |-- molecules
 |   |   |   `-- ...
+|   |   |   `-- index.ts
 |   |   |-- organisms
 |   |   |   `-- ...
+|   |   |   `-- index.ts
 |   |   |-- pages
 |   |   |   `-- ...
+|   |   |   `-- index.ts
 |   |   `-- templates
-|   |       `-- ...
+|   |       |-- ...
+|   |       `-- index.ts
 |   |-- utils
 |   |   `-- index.ts
 |   |-- store
