@@ -70,7 +70,7 @@ yarn start
 yarn build
 ```
 
-## Contribuition :sunglasses:
+## Contribution :sunglasses:
 
 Branch structure:
 
